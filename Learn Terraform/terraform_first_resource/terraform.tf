@@ -1,5 +1,5 @@
 provider "github" {
-    token = "your github token"
+    token = "my-token"
   
 }
 
