@@ -7,7 +7,6 @@ variable "userAge" {
     Akshit = 23
   }
 }
-
 variable "userName" {
   type = string
 }

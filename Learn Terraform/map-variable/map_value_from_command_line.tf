@@ -1,11 +1,11 @@
-variable "userAge" {
-  type = map
-}
+# variable "userAge" {
+#   type = map
+# }
 
-variable "userName" {
-  type = string
-}
+# variable "userName" {
+#   type = string
+# }
 
-output print {
-  value = "Age of ${var.userName} ${lookup(var.userAge, "${var.userName}")}"
-}
+# output print {
+#   value = "Age of ${var.userName} ${lookup(var.userAge, "${var.userName}")}"
+# }
